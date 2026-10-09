@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmartBus Conducteur</string>
+    <string name="notification_channel_name">Partage GPS SmartBus</string>
+    <string name="notification_channel_description">Notification visible pendant le partage de position</string>
+</resources>

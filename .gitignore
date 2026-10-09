@@ -1,0 +1,39 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+venv/
+*.egg-info/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Django generated files
+staticfiles/
+media/
+dist/
+.vercel/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/ios/Pods/
+**/ios/Flutter/.last_build_id

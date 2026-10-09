@@ -1,0 +1,5 @@
+{
+  "framework": null,
+  "buildCommand": "node scripts/build-vercel-preview.mjs",
+  "outputDirectory": "dist"
+}

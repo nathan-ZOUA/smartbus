@@ -1,0 +1,9 @@
+.env
+.env.*
+.venv/
+backend/
+android/
+mobile/
+docs/
+frontend/router.php
+frontend/tests/

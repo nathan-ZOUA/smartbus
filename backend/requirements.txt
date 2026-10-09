@@ -1,0 +1,7 @@
+Django>=5.2,<5.3
+djangorestframework>=3.16,<3.17
+cryptography>=44,<47
+PyMySQL>=1.1,<1.2
+python-dotenv>=1.0,<2.0
+reportlab>=4.4,<5.0
+gunicorn>=23,<24

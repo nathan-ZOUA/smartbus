@@ -1,0 +1,96 @@
+@media (max-width: 380px) {
+  .sidebar {
+    width: 52px;
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  #map-pins {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .map-pin {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #d8fff4;
+    border-radius: 50%;
+    background: #42d8a4;
+    box-shadow: 0 0 0 5px #42d8a433, 0 0 17px #42d8a499;
+    transform: translate(-50%, -50%);
+  }
+
+  .booking-cancel {
+    border: 1px solid #624047;
+    border-radius: 5px;
+    background: #33242f;
+    color: #ff9da2;
+    padding: 4px 8px;
+    font: 600 9px "DM Sans", sans-serif;
+    cursor: pointer;
+  }
+
+  .booking-cancel:disabled {
+    opacity: 0.5;
+    cursor: wait;
+  }
+
+  .main-content {
+    margin-left: 52px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .stat-card {
+    min-height: 88px;
+  }
+
+  .welcome h1 {
+    font-size: 21px;
+  }
+
+  .topbar-actions {
+    gap: 4px;
+  }
+
+  .topbar-actions .button-quiet {
+    padding: 0 7px;
+  }
+
+  .booking-form {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-form label:nth-child(4),
+  .booking-submit {
+    grid-column: auto;
+  }
+}
+
+.driver-shell {
+  padding: max(18px, env(safe-area-inset-top)) 0 max(18px, env(safe-area-inset-bottom));
+}
+
+.driver-form input,
+.driver-controls select {
+  min-height: 48px;
+  font-size: 16px;
+}
+
+.driver-form .button,
+.driver-actions .button {
+  min-height: 48px;
+}
+
+@media (max-width: 480px) {
+  .driver-panel {
+    padding: clamp(18px, 6vw, 26px);
+  }
+}

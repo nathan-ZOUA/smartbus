@@ -1,0 +1,31 @@
+.preview-banner {
+  position: relative;
+  z-index: 20;
+  padding: 11px 18px;
+  background: #5b3d13;
+  border-bottom: 1px solid #b88024;
+  color: #fff0cf;
+  font: 600 12px/1.5 "DM Sans", sans-serif;
+  text-align: center;
+}
+
+.preview-banner strong {
+  color: #ffd27f;
+  letter-spacing: .08em;
+}
+
+.preview-notice {
+  margin: 12px 0;
+  padding: 12px 14px;
+  border: 1px solid #725a32;
+  border-radius: 8px;
+  background: #2b261b;
+  color: #f0d8a8;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.preview-disabled {
+  opacity: .55;
+  cursor: not-allowed !important;
+}
